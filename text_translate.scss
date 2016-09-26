@@ -1,0 +1,30 @@
+.text-translate-container {
+  &:hover {
+    .text-translate {
+      display: block;
+    }
+  }
+
+  .text-translate {
+    height: auto;
+    position: fixed;
+
+    background-color: #696969;
+    opacity: 0.9;
+    padding: 4px;
+    font-size: 10px;
+    z-index: 1000;
+    overflow: hidden;
+    pointer-events: none;
+
+    border-radius: 4px;
+    font-weight: 500;
+    color: #fff;
+
+    display: none;
+
+    span {
+      white-space: initial;
+    }
+  }
+}
